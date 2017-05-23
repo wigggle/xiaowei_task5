@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>xiaowei_task5</title>
+    <link rel="stylesheet" href="task5.css">
+</head>
+<body>
+    <div class="header">
+        <a href="http://www.baidu.com"><img src="baidu_logo.png"></a>
+        <ul>
+            <li><a href="http://www.baidu.com">百度首页</a></li>
+            <li><a href="http://ife.baidu.com">前端学院</a></li>
+            <li><a href="https://github.com">访问github</a></li>
+        </ul>
+    </div>
+    <div class="aside">
+        <h3>&nbsp;&nbsp;&nbsp;&nbsp; 欢迎填写您的偏好</h3>
+        <form action="" method="post">
+            <div>
+                <div class="input_message">请输入邮箱地址:</div>
+                <input class="bot" type="email" placeholder="这是一个文本输入框"/>
+            </div>
+            <div class="prompt">按照要求输入邮箱地址</div>
+            <div>
+                <div class="input_message">请输入密码:</div>
+                <input class="bot" type="password" placeholder="这是一个密码输入框" minlength="6" maxlength="16" pattern="[A-z0-9]*">
+            </div>
+            <div>
+                <div class="input_message">请重复输入密码:</div>
+                <input class="bot" type="password" placeholder="这是一个密码输入框" minlength="6" maxlength="16" pattern="[A-z0-9]*">
+            </div>
+            <div class="prompt">密码为6-16位的字母和数字组合</div>
+            <div>
+                <div class="input_message">性别：</div>
+                <input type="radio" name="sex" id="male" checked="checked">男
+                <input type="radio" name="sex" id="female">女
+            </div>
+            <div>
+                <div class="input_message">城市：</div>
+                <select>
+                    <option value="nj">北京</option>
+                    <option value="sh">上海</option>
+                    <option value="gz">广州</option>
+                </select>
+            </div>
+            <div>
+                <div class="input_message">爱好：</div>
+                <input type="checkbox" id="sports">运动
+                <input type="checkbox" id="sports">艺术
+                <input type="checkbox" id="sports">阅读
+                <input type="checkbox" id="sports">科学
+            </div>
+            <div>
+                <div class="input_message">个人描述:</div>
+                <textarea placeholder="这是一个多行输入框，输入您的个人简介给我们看"></textarea>
+            </div>
+            <div class="submit">
+                <input type="submit" value="确认提交" />
+            </div>
+        </form>
+    </div>
+    <div class="main">
+        <div class="article" id="topic1">
+            <span><strong><h1>欢迎来到百度</h1></strong></span>
+            <span><h3>百度前端技术学院</h3></span>
+            <span>齐爽 2017.5.20</span>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;百度前端技术学院的课程任务是由百度前端工程师专为对前端不同掌握程度的同学设计。我们尽力保证课程内容的质量以及学习难度的合理性，但即使如此，真正决定课程效果的，还是你的每一次思考和实践。
+                课程多数题目的解决方案都不是唯一的，这和我们在实际工作中的情况也是一致的。因此，我们的要求不仅仅是实现设计稿的效果，更是要多去思考不同的解决方案，评估不同方案的优劣，然后使用在该场景下最优雅的方式去实现。
+                那些最终没有被我们采纳的方案，同样也可以帮助我们学到很多知识。所以，我们列出的参考资料未必是实现需求所必须的。有的时候，实现题目的要求很简单，甚至参考资料里就有，但是背后的思考和亲手去实践却是任务最关键的
+                一部分。在学习这些资料时，要多思考，多提问，多质疑。相信通过和小伙伴们的交流，能让你的学习事半功倍。</p>
+            <br>
+            <img src="mypic.jpg">
+            <br>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;百度前端技术学院的课程任务是由百度前端工程师专为对前端不同掌握程度的同学设计。我们尽力保证课程内容的质量以及学习难度的合理性，但即使如此，真正决定课程效果的，还是你的每一次思考和实践。
+                课程多数题目的解决方案都不是唯一的，这和我们在实际工作中的情况也是一致的。因此，我们的要求不仅仅是实现设计稿的效果，更是要多去思考不同的解决方案，评估不同方案的优劣，然后使用在该场景下最优雅的方式去实现。
+                那些最终没有被我们采纳的方案，同样也可以帮助我们学到很多知识。所以，我们列出的参考资料未必是实现需求所必须的。有的时候，实现题目的要求很简单，甚至参考资料里就有，但是背后的思考和亲手去实践却是任务最关键的
+                一部分。在学习这些资料时，要多思考，多提问，多质疑。相信通过和小伙伴们的交流，能让你的学习事半功倍。</p>
+        </div>
+        <div class="article" id="topic2">
+            <span><strong><h1>欢迎来到杭州</h1></strong></span>
+            <span><h3>这里是杭州电子科技大学</h3></span>
+            <span>管理学院 2015.5.20</span>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;百度前端技术学院的课程任务是由百度前端工程师专为对前端不同掌握程度的同学设计。我们尽力保证课程内容的质量以及学习难度的合理性，但即使如此，真正决定课程效果的，还是你的每一次思考和实践。
+                课程多数题目的解决方案都不是唯一的，这和我们在实际工作中的情况也是一致的。因此，我们的要求不仅仅是实现设计稿的效果，更是要多去思考不同的解决方案，评估不同方案的优劣，然后使用在该场景下最优雅的方式去实现。
+                那些最终没有被我们采纳的方案，同样也可以帮助我们学到很多知识。所以，我们列出的参考资料未必是实现需求所必须的。有的时候，实现题目的要求很简单，甚至参考资料里就有，但是背后的思考和亲手去实践却是任务最关键的
+                一部分。在学习这些资料时，要多思考，多提问，多质疑。相信通过和小伙伴们的交流，能让你的学习事半功倍。</p>
+            <br>
+            <img src="mypic.jpg">
+            <ul>
+                <li>物流工程</li>
+                <li>技术经济与管理</li>
+                <li>管理科学与工程</li>
+            </ul>
+        </div>
+        <div class="article" id="topic3">
+            <span><strong><h1>杭电的图片</h1></strong></span>
+            <br>
+            <figure>
+                <span>好看的图片</span>
+                <img src="mypic.jpg">
+            </figure>
+            <figure>
+                <span>好看的图片</span>
+                <img src="mypic.jpg">
+            </figure>
+            <figure>
+                <span>好看的图片</span>
+                <img src="mypic.jpg">
+            </figure>
+            <figure>
+                <span>好看的图片</span>
+                <img src="mypic.jpg">
+            </figure>
+            <figure>
+                <span>好看的图片</span>
+                <img src="mypic.jpg">
+            </figure>
+            <figure>
+                <span>好看的图片</span>
+                <img src="mypic.jpg">
+            </figure>
+            <figure>
+                <span>好看的图片</span>
+                <img src="mypic.jpg">
+            </figure>
+            <figure>
+                <span>好看的图片</span>
+                <img src="mypic.jpg">
+            </figure>
+            <figure>
+                <span>好看的图片</span>
+                <img src="mypic.jpg">
+            </figure>
+            <figure>
+                <span>好看的图片</span>
+                <img src="mypic.jpg">
+            </figure>
+        </div>
+        <div class="article" id="topic4">
+            <span><strong><h1>最后展示</h1></strong></span>
+            <span><h3>院系一栏</h3></span>
+            <span>管理学院 2015.5.20</span>
+            <table border="1" width="100%">
+                <tr style="background-color: beige" >
+                    <th>表头</th>
+                    <th>表头</th>
+                    <th>表头</th>
+                </tr>
+                <tr>
+                    <td>表中的内容</td>
+                    <td>表中的内容</td>
+                    <td><a href="#">操作点击</a></td>
+                </tr>
+                <tr>
+                    <td>表中的内容</td>
+                    <td>表中的内容</td>
+                    <td><a href="#">操作点击</a></td>
+                </tr>
+                <tr>
+                    <td>表中的内容</td>
+                    <td>表中的内容</td>
+                    <td><a href="#">操作点击</a></td>
+                </tr>
+                <tr style="background-color: beige">
+                    <td>总计</td>
+                    <td colspan="2">1000人</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <div class="footer">
+        <span>版权所有&copy;</span>
+    </div>
+</body>
+</html>
